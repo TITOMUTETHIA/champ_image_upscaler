@@ -13,7 +13,7 @@ try:
 except Exception:
     DND_AVAILABLE = False
 
-from upscalers import OpenCVSuperResolver
+from upscalers.opencv_sr import OpenCVSuperResolver
 from utils.image_ops import pil_to_bgr, bgr_to_pil, make_preview
 
 logger = logging.getLogger(__name__)
