@@ -1,0 +1,5 @@
+opencv-python
+Pillow
+numpy
+# optional for drag-and-drop. On some systems install manually if fails:
+TkinterDnD2
